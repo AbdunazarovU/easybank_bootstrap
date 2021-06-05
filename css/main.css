@@ -225,6 +225,15 @@ body {
   padding-bottom: 48px;
 }
 
+.site-footer .site-footer__list {
+  list-style: none;
+  margin-top: 55px;
+}
+
+.site-footer .site-footer__list .site-footer__item {
+  margin-right: 13px;
+}
+
 @media (max-width: 992px) {
   .hero__title {
     padding-top: 725px;
