@@ -219,6 +219,12 @@ body {
   letter-spacing: -0.203px;
 }
 
+.site-footer {
+  background-color: #2d314d;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
 @media (max-width: 992px) {
   .hero__title {
     padding-top: 725px;
