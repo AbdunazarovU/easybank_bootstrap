@@ -77,7 +77,7 @@ body{
     line-height: 16px;
     letter-spacing: -0.107692px;
     border-bottom: 2px solid transparent;
-
+    
     &:active {
         color: #2D314D;
     }
@@ -85,7 +85,7 @@ body{
 
 .rounded-pill{
     transition: all .2s ease;
-
+    
     &:active {
         opacity: .4;
     }
@@ -95,11 +95,11 @@ body{
 // HERO
 .hero{
     position: relative;
-
+    
     .hero__wrapper{
         max-width: 440px;
         margin: 0;
-
+        
         &::after {
             position: absolute;
             top: 46px;
@@ -112,7 +112,7 @@ body{
             background-position:  center center;
             background-repeat: no-repeat;
         }
-
+        
         .hero__title{
             font-weight: 100;
             font-size: 56px;
@@ -139,20 +139,46 @@ body{
 .advantages{
     padding-top: 96px;
     padding-bottom: 94px;
-
+    
+    .card-title{
+        font-weight: 100;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.428571px;
+        color: #2D314D;
+        margin-bottom: 26px;
+    }
     .card-title::before{
         content: "";
         display: block;
         width: 72px;
         height: 72px;
         background-image: url(../img/banking.png),
-                        var(--gradient);
+        var(--gradient);
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 50%;
+        margin-bottom: 40px;
+    }
+    .card-text{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.25px;
+    }
+    .advantages__title{
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 64px;
+        letter-spacing: -0.714286px;
+        color: #2D314D;
     }
     .advantages__text{
         width: 635px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.28125px;
         margin-bottom: 72px;
     }
 }
@@ -167,7 +193,7 @@ body{
 @media (max-width: 457px) {
     .hero__wrapper{
         text-align: center;
-
+        
         &::after{
             background-image: url(../img/phones-mobile.png);
             width: 100%;

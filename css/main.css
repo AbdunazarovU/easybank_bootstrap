@@ -131,6 +131,15 @@ body {
   padding-bottom: 94px;
 }
 
+.advantages .card-title {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2D314D;
+  margin-bottom: 26px;
+}
+
 .advantages .card-title::before {
   content: "";
   display: block;
@@ -140,10 +149,30 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.advantages .card-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+}
+
+.advantages .advantages__title {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
 }
 
 .advantages .advantages__text {
   width: 635px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
   margin-bottom: 72px;
 }
 
